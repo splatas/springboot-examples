@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Template
+metadata:
+  name: book-service-template
+objects:
+parameters:
+- description: Application Name
+  displayName: Application Name
+  name: APP_NAME
+  required: true
+  value: book-service
